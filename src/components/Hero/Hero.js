@@ -29,7 +29,9 @@ const Hero = () => {
           Hope you get the required information you need, looking forward to
           your reach out and collaborations.
         </SectionText>
-        <Button onClick={() => (window.location = "https://google.com")}>
+        <Button
+          onClick={() => (window.location = "https://github.com/Dgitial")}
+        >
           Learn More
         </Button>
       </LeftSection>
