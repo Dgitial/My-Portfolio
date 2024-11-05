@@ -1,5 +1,6 @@
 module.exports = {
   basePath: "/My-Portfolio",
+  assetPrefix: "/My-Portfolio",
   webpack: (config) => {
     config.module.rules.push({
       test: /\.js$/,
