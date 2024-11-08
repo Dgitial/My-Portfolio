@@ -3,8 +3,8 @@ module.exports = {
     return [
       {
         source: "/",
-        destination: "/My-Portfolio",
-        permanent: true,
+        destination: "/Home", // Or just remove the redirect if no specific page
+        permanent: false,
       },
     ];
   },
