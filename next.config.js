@@ -1,13 +1,4 @@
 module.exports = {
-  redirects() {
-    return [
-      {
-        source: "/",
-        destination: "/Home", // Or just remove the redirect if no specific page
-        permanent: false,
-      },
-    ];
-  },
   webpack: (config) => {
     config.module.rules.push({
       test: /\.js$/,
